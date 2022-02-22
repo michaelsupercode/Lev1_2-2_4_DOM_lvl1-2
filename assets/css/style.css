@@ -1,0 +1,56 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    background: #000;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+    padding: 0;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 1.5em;
+}
+
+.navbar button {
+    background: rgb(39, 78, 36);
+    padding: 1.5em;
+    color: #fff;
+}
+
+.example {
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+form {
+    padding: 5px;
+    display: inline-block;
+    background: #999;
+    border-radius: 5px;
+}
+
+input {
+    background: #333;
+    color: white;
+}
