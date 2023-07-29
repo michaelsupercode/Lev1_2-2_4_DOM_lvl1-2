@@ -54,3 +54,8 @@ input {
     background: #333;
     color: white;
 }
+
+h6 {
+margin: 5vh;
+text-align: center;
+}
